@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- Bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+      <div class="col-auto px-0">
+        <div id="sidebar" class="collapse collapse-horizontal show border-end">
+          <div id="sidebar-nav" class="list-group border-0 rounded-0 text-sm-start min-vh-100">
+            <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate pt-5 pb-2"
+              data-bs-parent="#sidebar">
+              <div class="d-flex flex-column justify-content-center">
+                <img src="./assets/avatar.svg" class="rounded-circle d-block mx-auto" width="50" alt="avatar image">
+                <p class="text-center mt-2">
+                  Hello, <span class="fw-semibold">admin</span>
+                </p>
+              </div>
+            </a>
+            <a href=" #" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-parent="#sidebar">
+              <i class="bi bi-house"></i>
+              <span>Dashboard</span>
+            </a>
+            <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-parent="#sidebar">
+              <i class="bi bi-person"></i>
+              <span>New order</span>
+            </a>
+            <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-parent="#sidebar">
+              <i class="bi bi-archive"></i>
+              <span>Item</span>
+            </a>
+            <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-parent="#sidebar">
+              <i class="bi bi-gear"></i>
+              <span>Item</span>
+            </a>
+            <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-parent="#sidebar">
+              <i class="bi bi-calendar"></i>
+              <span>Item</span>
+            </a>
+            <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-parent="#sidebar">
+              <i class="bi bi-envelope"></i>
+              <span>Item</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <main class="col ps-md-2 pt-2">
+        <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse"
+          class="border rounded-3 p-1 text-decoration-none">
+          <i class="bi bi-list bi-lg py-2 p-1"></i>
+        </a>
+        <div class="page-header pt-3">
+          <h2>Dashboard</h2>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="./assets/intro.png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-lg-6">
+            <span class="text-primary fs-4">Siapa kami ? </span>
+            <h2 class="fw-bold">Pemuda Coding Academy</h3>
+              <p class="lh-base font-monospace textIndent__Custom">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, earum! Delectus fugiat natus
+                vitae
+                quibusdam temporibus dolorem veritatis quod voluptatem, placeat aut. Aut veniam, commodi minima earum
+                esse
+                repudiandae. Modi cum, laudantium temporibus harum minima impedit facere magni, vitae tempore, soluta
+                nobis repudiandae facilis rem totam nostrum esse odit. Dolores.
+              </p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
